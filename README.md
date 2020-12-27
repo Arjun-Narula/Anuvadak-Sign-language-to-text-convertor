@@ -6,9 +6,9 @@
 <br>[Chapter 3 Artificial Neural Network – A Review](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-3-artificial-neural-network--a-review)
 <br>[Chapter 4 Methodology ](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-4-methodology)
 <br>[Chapter 5 Results and Applications ](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-5-results-and-applications)
-<br>[Chapter 6 Conclusions and Future Scope ]()
-<br>[References ]()
-<br>[Appendix]()
+<br>[Chapter 6 Conclusions and Future Scope ](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-6-conclusions-and-future-scope)
+<br>[References ](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#references)
+<br>[Appendix](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#appendix)
 
 ## ABSTRACT
 People affected by speech impairment can't communicate using hearing
@@ -912,5 +912,36 @@ a direction worthy of breakthrough about how to improve the
 speed of hand locating and recognition of sign language words.<br />
 
 ## References
+<b>[1]</b> M.M.Gharasuie, H.Seyedarabi, “Real-time Dynamic Hand Gesture
+Recognition using Hidden Markov Models”, 8th Iranian Conference on
+Machine Vision and Image Processing (MVIP), 2013.<br />
+<b>[2]</b> Pradumn Kumar, Upasana Dugal, “Tensorflow Based Image
+Classification using Advanced Convolutional Neural Network”,
+International Journal of Recent Technology and Engineering (IJRTE)
+ISSN: 2277-3878, Volume-8 Issue-6, March 2020, March, 2020.<br />
+<b>[3]</b> Xin Jia, “Image Recognition Method Based on Deep Learning”, CCDC,
+DOI: 978-1-5090-4657-7/17, 2017.<br />
+<b>[4]</b> Jiudong Yang, Jianping Li, “Application Of Deep Convolution Neural
+Network”, IEEE, DOI: 978-1-5386-1010-7/17, 2017.<br />
+<b>[5]</b> Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever,
+Ruslan Salakhutdinov, “Dropout: A Simple Way to Prevent Neural
+Networks from Overfitting”, Journal of Machine Learning Research 15
+(2014) 1929-1958, 2014.<br />
+<b>[6]</b> Ankit Ojha, Ayush Pandey, Shubham Maurya, Abhishek Thakur, Dr.
+Dayananda P, “Sign Language to Text and Speech Translation in Real
+Time Using Convolutional Neural Network”, International Journal of
+Engineering Research & Technology (IJERT), ISSN: 2278-0181,
+NCAIT - 2020 Conference Proceedings.<br />
+<b>[7]</b> Nobuhiko MUKAI, Naoto HARADA, Youngha CHANG, “Japanese
+Fingerspelling Recognition based on Classification Tree and Machine
+Learning”, NICOGRAPH International, 2017.<br />
+<b>[8]</b> Qi Wang, Zequn Qin, Feiping Nie, Yuan Yuan, “Convolutional 2D LDA
+for Nonlinear Dimensionality Reduction”, Proceedings of the Twenty-
+Sixth International Joint Conference on Artificial Intelligence (IJCAI-17).<br />
+<b>[9]</b> Aarthi M, Vijayalakshmi P, “ Sign Language To Speech Conversion”,
+Fifth International Conference On Recent Trends In Information
+Technology, 2016.<br />
+
+
 ## Appendix
 
