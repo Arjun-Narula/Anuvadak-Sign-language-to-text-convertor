@@ -312,6 +312,7 @@ final output layer.<br />
 </p><br />
 There are capable of learning and they have to be trained. There are
 different learning strategies :<br />
+
 * Unsupervised Learning<br />
 * Supervised Learning<br />
 * Reinforcement Learning<br />
@@ -396,10 +397,12 @@ color.<br />
 We use pooling layer to decrease the size of activation
 matrix and ultimately reduce the learnable parameters. There
 are two type of pooling:<br />
+
 ##### 2.a Max Pooling : In max pooling we take a window size (for
 example window of size 2*2), and only take the maximum of 4
 values. Well lid this window and continue this process, so well
 finally get a activation matrix half of its original Size.<br />
+
 ##### 2.b Average Pooling : In average pooling we take average of all
 values in a window.
 
