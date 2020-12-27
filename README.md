@@ -53,17 +53,8 @@ gestures are understood with vision. This nonverbal communication
 of deaf and dumb people is called sign language.<br />
 Sign language is a visual language and consists of 3 major
 components:
-Finger Spelling Word Level
-Vocabulary
-Non-Manual
-features
-Used to spell words
-letter by letter.
-Used for the majority of
-communication.
-Facial expressions and
-tongue, mouth and body
-position.
+![](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Table1.1%20Components%20of%20visual%20sign%20language.JPG)<br />
+
 In our project we basically focus on producing a model which can
 recognise Finger spelling based hand gestures in order to form a
 complete word by combining each gesture.
