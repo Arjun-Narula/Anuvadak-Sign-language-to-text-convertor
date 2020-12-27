@@ -121,22 +121,22 @@ We propose to develop a user friendly human computer interface
 is accurate, effective and economical.<br />
 
 ### 1.2 OBJECTIVES
-1 To develop an application interface that interprets American Sign
+Markup: * To develop an application interface that interprets American Sign
   Language to Text in real time to assist deaf and dumb for
   communicating with them effectively eliminating the requirement of a
   translating individual.<br />
-2 To devise a model to achieve the highest possible accuracy and least
+* To devise a model to achieve the highest possible accuracy and least
   time consumption for prediction of symbols as compared to already
   existing models.<br />
-3 To reduce the cost and develop an economical and user friendly
+* To reduce the cost and develop an economical and user friendly
   graphical user interface (GUI) application that requires minimal
   maintenance for conversion of sign to its corresponding text.<br />
-4 To provide suggestions based on current word to eliminate the need
+* To provide suggestions based on current word to eliminate the need
   of translating the full word, thereby improving accuracy and reducing
   time for sign to text conversion.<br />
-5 To reduce the chances of spelling mistakes by suggesting correct
+* To reduce the chances of spelling mistakes by suggesting correct
   spellings from English dictionary words close to the current word.
-6 To formulate characters, words and sentences with interpretation of
+* To formulate characters, words and sentences with interpretation of
   symbols in American Sign Language in a portable and real time
   application.<br />
 
