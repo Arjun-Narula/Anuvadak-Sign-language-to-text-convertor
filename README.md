@@ -565,7 +565,7 @@ dropout layer of value 0.5 to avoid overfitting.<br />
   Now the output from the 1st Densely
 Connected Layer are used as an input to a fully connected layer with 96
 neurons.<br />
-  * <b> Final layer:</b>
+* <b> Final layer:</b>
   The output of the 2nd Densely Connected Layer serves as
 an input for the final layer which will have the number of neurons as the
 number of classes we are classifying (alphabets + blank symbol).<br />
