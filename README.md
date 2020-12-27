@@ -398,13 +398,43 @@ We use pooling layer to decrease the size of activation
 matrix and ultimately reduce the learnable parameters. There
 are two type of pooling:<br />
 
-##### 2.a Max Pooling : In max pooling we take a window size (for
+##### 2.a Max Pooling :
+In max pooling we take a window size (for
 example window of size 2*2), and only take the maximum of 4
 values. Well lid this window and continue this process, so well
 finally get a activation matrix half of its original Size.<br />
 
-##### 2.b Average Pooling : In average pooling we take average of all
-values in a window.
+##### 2.b Average Pooling :
+In average pooling we take average of all
+values in a window.<br />
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.6%20Average%20Pooling%20and%20Max%20Pooling.JPG">
+</p><br />
+
+#### 3 Fully Connected Layer :
+In convolution layer neurons are connected only to a local region,
+while in a fully connected region, well connect the all the inputs to
+neurons.<br />
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.7%20Fully%20converted%20Layer.JPG">
+</p><br />
+
+
+#### 4 Final Output Layer :
+After getting values from fully connected layer, well connect
+them to final layer of neurons(having count equal to total
+number of classes), that will predict the probability of each
+image to be in different classes.<br />
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.8%20Output%20Layer.JPG">
+</p><br />
+
+
+
+
 
 
 
