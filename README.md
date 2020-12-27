@@ -1,9 +1,7 @@
 # ANUVADAK-Sign-language-to-text-convertor
 ## CONTENTS 
-
-
-#Abstract 
-[Chapter 1 Introduction ]
+<b>[Abstract ]
+<b>Chapter 1 Introduction 
 #Chapter-2-Literature Survey 
 #Chapter-3-Artificial Neural Network – A Review 
 #Chapter-4-Methodology 
