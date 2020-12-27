@@ -2,13 +2,13 @@
 ## CONTENTS 
 <br>[Abstract ](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#abstract)
 <br>Chapter 1 Introduction 
-#Chapter-2-Literature Survey 
-#Chapter-3-Artificial Neural Network – A Review 
-#Chapter-4-Methodology 
-#Chapter-5-Results and Applications 
-#Chapter-6-Conclusions and Future Scope 
-#References 
-#Appendix
+<br>Chapter-2-Literature Survey 
+<br>Chapter-3-Artificial Neural Network – A Review 
+<br>Chapter-4-Methodology 
+<br>Chapter-5-Results and Applications 
+<br>Chapter-6-Conclusions and Future Scope 
+<br>References 
+<br>Appendix
 
 ## ABSTRACT
 People affected by speech impairment can't communicate using hearing
@@ -38,3 +38,107 @@ maintenence factor involved which we tried to eliminate in our project.
 We have achieved high acccuracy of 96.5% in our model, with the
 feature of suggestions of words and formation of sentences, an idea
 which was not found in any of the researches.
+
+## CHAPTER-1 INTRODUCTION
+American sign language is a predominant sign language Since the
+only disability D&M people have is communication related and they
+cannot use spoken languages hence the only way for them to
+communicate is through sign language.<br />
+Communication is the process of exchange of thoughts and
+messages in various ways such as speech, signals, behaviour and
+visuals. Deaf and dumb(D&M) people make use of their hands to
+express different gestures to express their ideas with other people.<br />
+Gestures are the nonverbally exchanged messages and these
+gestures are understood with vision. This nonverbal communication
+of deaf and dumb people is called sign language.<br />
+Sign language is a visual language and consists of 3 major
+components:
+Finger Spelling Word Level
+Vocabulary
+Non-Manual
+features
+Used to spell words
+letter by letter.
+Used for the majority of
+communication.
+Facial expressions and
+tongue, mouth and body
+position.
+In our project we basically focus on producing a model which can
+recognise Finger spelling based hand gestures in order to form a
+complete word by combining each gesture.
+7
+Table 1.1 Components of visual sign language
+The gestures we aim to train are as given in the image below.
+1.1 MOTIVATION
+The main motivation is to translate sign language to text. The
+framework provides a helping-hand for speech-impaired to
+communicate with the rest of the world using sign language. This
+leads to the elimination of the middle person who generally acts as a
+medium of translation. This would contain a user-friendly environment
+for the user by providing text output for a sign gesture input.
+There are many researches on recognition of sign languages or
+finger spellings. In [1] they have proposed a system that recognizes
+dynamic hand gestures for English numbers (0-9) in real-time using
+Hidden Markov Model. HMM is highly dependent on the probability of
+the hidden states, hence there are more number of parameters to
+learn which is time consuming. Our prime motivation was to devise a
+system which is time efficient for each and every alphabet of
+American Sign Language.
+8
+Figure 1.1 Sign conventions of alphabets in ASL
+Pradumn Kumar and Upasana Dugal [2] proposed an algorithm using
+Tensorflow based on Advanced Convolutional Neural Networks for
+identification of plants. This research paper motivated us to use
+Convolutional Neural Networks for identification of American Sign
+Language symbols.
+In [3], [4] and [5] we got an overview of Convolutional Neural
+Network(CNN), various deep learning approaches, their applications
+and their recent developments. We also gathered details about how
+overfitting in Neural Networks can be reduced by a technique called
+Dropout which is dropping off some neurons in the Neural Nets.
+One method is based on Support Vector Machine (SVM) [7]. They
+extract signs from video sequences using skin colour segmentation,
+and distinguish static and dynamic gestures. However, the accuracy
+received in this method is 86%. Our aim is to achieve higher
+accuracy than this model.
+Representing high-volume and high-order data is an essential
+problem, especially in machine learning field. This [8] research paper
+developed a model using Linear discriminant analysis (LDA), the
+classical LDA, however, demands that input data should be
+represented by vector. Such a constraint is a significant drawback to
+express complex data. To solve the above limitation for high-volume
+and high-order data nonlinear dimensionality reduction, we used
+Convolutional Neural Networks.
+Another method is a controller gesture recognition system that
+extracts hand gestures using Flex sensors [9] for sensing the hand
+movements. The output from the microcontroller is the recognized
+text which is fed as input to the speech synthesizer. Arduino
+microcontroller processes the data for each particular gesture made.
+The system is trained for different voltage values for each letter.
+However, this method is not very economical and requires high
+maintenance from time to time.
+We propose to develop a user friendly human computer interface
+(HCI) where the computer understands the human sign language and
+is accurate, effective and economical.
+9
+1.2 OBJECTIVES
+1 To develop an application interface that interprets American Sign
+Language to Text in real time to assist deaf and dumb for
+communicating with them effectively eliminating the requirement of a
+translating individual.
+2 To devise a model to achieve the highest possible accuracy and least
+time consumption for prediction of symbols as compared to already
+existing models.
+3 To reduce the cost and develop an economical and user friendly
+graphical user interface (GUI) application that requires minimal
+maintenance for conversion of sign to its corresponding text.
+4 To provide suggestions based on current word to eliminate the need
+of translating the full word, thereby improving accuracy and reducing
+time for sign to text conversion.
+5 To reduce the chances of spelling mistakes by suggesting correct
+spellings from English dictionary words close to the current word.
+6 To formulate characters, words and sentences with interpretation of
+symbols in American Sign Language in a portable and real time
+application.
+10
