@@ -3,12 +3,12 @@
 <br>[Abstract ](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#abstract)
 <br>[Chapter 1 Introduction](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-1-introduction)
 <br>[Chapter 2 Literature Survey](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-2-literature-survey)
-<br>Chapter 3 Artificial Neural Network – A Review (https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-3-artificial-neural-network--a-review)
-<br>Chapter 4 Methodology 
-<br>Chapter 5 Results and Applications 
-<br>Chapter 6 Conclusions and Future Scope 
-<br>References 
-<br>Appendix
+<br>[Chapter 3 Artificial Neural Network – A Review] (https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-3-artificial-neural-network--a-review)
+<br>[Chapter 4 Methodology ]
+<br>[Chapter 5 Results and Applications ]
+<br>[Chapter 6 Conclusions and Future Scope ]
+<br>[References ]
+<br>[Appendix]
 
 ## ABSTRACT
 People affected by speech impairment can't communicate using hearing
@@ -298,6 +298,105 @@ as a 3D matrix having dimension as of height and width of the image and the
 value of each pixel as depth ( 1 in case of Grayscale and 3 in case of RGB).
 Further, these pixel values are used for extracting useful features using
 CNN.*<br />
+# 3.1 Artificial Neural Networks
+Artificial Neural Network is a connections of neurons, replicating
+the structure of human brain. Each connection of neuron transfers
+information to another neuron. Inputs are fed into first layer of
+neurons which processes it and transfers to another layer of
+neurons called as hidden layers. After processing of information
+through multiple layers of hidden layers, information is passed to
+final output layer.<br />
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.1%20Artificial%20Neural%20Network.JPG">
+</p><br />
+There are capable of learning and they have to be trained. There are
+different learning strategies :<br />
+* Unsupervised Learning<br />
+* Supervised Learning<br />
+* Reinforcement Learning<br />
+### 3.1.1. Unsupervised Learning:
+Unsupervised learning is a type of machine learning that looks for
+previously undetected patterns in a data set with no pre-existing
+labels and with a minimum of human supervision. Two of the main
+methods used in unsupervised learning are principal component and
+cluster analysis.<br />
+The only requirement to be called an unsupervised learning strategy
+is to learn a new feature space that captures the characteristics of the
+original space by maximizing some objective function or minimising
+some loss function. Therefore, generating a covariance matrix is not
+unsupervised learning, but taking the eigenvectors of the covariance
+matrix is because the linear algebra eigendecomposition operation
+maximizes the variance; this is known as principal component
+analysis.<br />
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.2%20Unsupervised%20learning.JPG">
+</p><br />
+### 3.1.2. Supervised Learning:
+Supervised learning is the machine learning task of learning a
+function that maps an input to an output based on example
+input-output pairs. It infers a function from labeled training data
+consisting of a set of training examples. In supervised learning,
+each example is a pair consisting of an input object (typically a
+vector) and a desired output value (also called the supervisory
+signal). A supervised learning algorithm analyzes the training
+data and produces an inferred function, which can be used for
+mapping new examples. An optimal scenario will allow for the
+algorithm to correctly determine the class labels for unseen
+instances. This requires the learning algorithm to generalize
+from the training data to unseen situations in a "reasonable"
+way.<br/>
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.3%20Supervised%20learning.JPG">
+</p><br />
+### 3.1.3. Reinforcement Learning:
+Reinforcement learning (RL) is an area of machine learning
+concerned with how software agents ought to take actions in an
+environment in order to maximize the notion of cumulative reward.
+Reinforcement learning is one of three basic machine learning
+paradigms, alongside supervised learning and unsupervised learning.
+Reinforcement learning differs from supervised learning in not
+needing labelled input/output pairs be presented, and in not needing
+sub-optimal actions to be explicitly corrected. Instead the focus is on
+finding a balance between exploration (of uncharted territory) and
+exploitation (of current knowledge).<br />
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.4%20Reinforcement%20learning.JPG">
+</p><br />
+### 3.2 Convolution Neural Network
+Unlike regular Neural Networks, in the layers of CNN, the neurons are
+arranged in 3 dimensions: width, height, depth. The neurons in a layer
+will only be connected to a small region of the layer (window size)
+before it, instead of all of the neurons in a fully-connected manner.
+Moreover, the final output layer would have dimensions (number of
+classes), because by the end of the CNN architecture we will reduce
+the full image into a single vector of class scores.<br />
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.5%20Convolution%20Neural%20Network.JPG">
+</p><br />
+#### 1 Convolution Layer :
+In convolution layer we take a small window size (typically of
+length 5*5) that extends to the depth of the input matrix. The
+layer consist of learnable filters of window size. During every
+iteration we slid the window by stride size (typically 1), and
+compute the dot product of filter entries and input values at a
+given position. As we continue this process well create a 2-
+Dimensional activation matrix that gives the response of that
+matrix at every spatial position. That is, the network will learn
+filters that activate when they see some type of visual feature
+such as an edge of some orientation or a blotch of some
+color.<br />
+#### 2 Pooling Layer :
+We use pooling layer to decrease the size of activation
+matrix and ultimately reduce the learnable parameters. There
+are two type of pooling:<br />
+##### 2.a Max Pooling : In max pooling we take a window size (for
+example window of size 2*2), and only take the maximum of 4
+values. Well lid this window and continue this process, so well
+finally get a activation matrix half of its original Size.<br />
+##### 2.b Average Pooling : In average pooling we take average of all
+values in a window.
+
+
 
   
 
