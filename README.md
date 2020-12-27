@@ -432,6 +432,44 @@ image to be in different classes.<br />
   <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.8%20Output%20Layer.JPG">
 </p><br />
 
+### 3.3 TensorFlow
+Tensorflow is an open source software library for numerical
+computation. First we define the nodes of the computation graph,
+then inside a session, the actual computation takes place.
+TensorFlow is widely used in Machine Learning.<br />
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.9%20Tensorflow.JPG">
+</p><br />
+
+
+### 3.4 Keras
+Keras is a high-level neural networks library written in python that
+works as a wrapper to TensorFlow. It is used in cases where we want
+to quickly build and test the neural network with minimal lines of code.
+It contains implementations of commonly used neural network
+elements like layers, objective, activation functions, optimizers, and
+tools to make working with images and text data easier.<br />
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.10%20Keras.JPG">
+</p><br />
+
+
+### 3.5 OpenCV
+OpenCV(Open Source Computer Vision) is an open source library of
+programming functions used for real-time computer-vision. It is mainly
+used for image processing, video capture and analysis for features
+like face and object recognition. It is written in C++ which is its
+primary interface, however bindings are available for Python, Java,
+MATLAB/OCTAVE.<br />
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.11%20Keras.JPG">
+</p><br />
+
+
+
 
 
 
