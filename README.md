@@ -5,7 +5,7 @@
 <br>[Chapter 2 Literature Survey](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-2-literature-survey)
 <br>[Chapter 3 Artificial Neural Network – A Review](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-3-artificial-neural-network--a-review)
 <br>[Chapter 4 Methodology ](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-4-methodology)
-<br>[Chapter 5 Results and Applications ]
+<br>[Chapter 5 Results and Applications ]()
 <br>[Chapter 6 Conclusions and Future Scope ]
 <br>[References ]
 <br>[Appendix]
@@ -473,6 +473,51 @@ MATLAB/OCTAVE.<br />
 with bare hands and so it eliminates the problem of using any artificial
 devices for interaction.*<br />
 
+### 4.1 Data Set Generation
+For the project we tried to find already made datasets but we couldn’t
+find dataset in the form of raw images that matched our requirements.
+All we could find were the datasets in the form of RGB values. Hence
+we decided to create our own data set. Steps we followed to create
+our data set are as follows:<br />
+
+#### Step 1:
+We used Open computer vision(OpenCV) library in order to
+produce our dataset. Firstly we captured around 600 images
+of each of the symbol in ASL for training purposes and
+around 150 images per symbol for testing purpose.<br />
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%204.1%20Capturing%20Image%20for%20a%20dataset.JPG">
+</p><br />
+
+
+
+#### Step 2:
+First we capture each frame shown by the webcam of our
+machine. In the each frame we define a region of interest
+(ROI) which is denoted by a blue bounded square as shown
+in the image below.<br />
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%204.2%20RGB%20image%20of%20alphabet%20%E2%80%9CA%E2%80%9D.JPG">
+</p><br />
+
+#### Step 3:
+From this whole image we extract our Region of Interest
+(ROI) which is RGB and convert it into gray scale Image as
+shown below.<br />
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%204.3%20Grayscale%20image%20of%20alphabet%20%E2%80%9CA%E2%80%9D.JPG">
+</p><br />
+
+#### Step 4:
+Finally we apply our gaussian blur filter to our image which
+helps us extracting various features of our image. The
+image after applying gaussian blur looks like below.
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%204.4%20Image%20after%20Gaussian%20Filter%20.JPG">
+</p><br />
 
 
 
