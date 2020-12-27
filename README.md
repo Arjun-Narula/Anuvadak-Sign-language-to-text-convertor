@@ -519,12 +519,237 @@ image after applying gaussian blur looks like below.
   <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%204.4%20Image%20after%20Gaussian%20Filter%20.JPG">
 </p><br />
 
+### 4.2 GESTURE CLASSIFICATION
+<b>The approach which we used for this project is :</b><br />
+Our approach uses two layers of algorithm to predict the final symbol of the
+user.<br />
+#### 4.2.1 Algorithm Layer :
+
+* Apply gaussian blur filter and threshold to the frame taken with
+opencv to get the processed image after feature extraction.<br />
+* This processed image is passed to the CNN model for prediction
+and if a letter is detected for more than 60 frames then the letter is
+printed and taken into consideration for forming the word.<br />
+* Space between the words are considered using the blank symbol.<br />
+
+#### 4.2.2 CNN Model :
+* <b>1st Convolution Layer :</b>  
+The input picture has resolution of 128x128
+pixels. It is first processed in the first convolutional layer using 32 filter
+weights (3x3 pixels each). This will result in a 126X126 pixel image, one
+for each Filter-weights.<br />
+
+
+* <b> 1st Pooling Layer : </b> 
+The pictures are downsampled using max pooling of
+2x2 i.e we keep the highest value in the 2x2 square of array. Therefore,
+our picture is downsampled to 63x63 pixels.<br />
+
+* <b> 2nd Convolution Layer : </b>
+Now, these 63 x 63 from the output of the first
+pooling layer is served as an input to the second convolutional layer.It is
+processed in the second convolutional layer using 32 filter weights (3x3
+pixels each).This will result in a 61 x 61 pixel image.<br />
+* <b>2nd Pooling Layer : </b>
+The resulting images are downsampled again using
+max pool of 2x2 and is reduced to 30 x 30 resolution of images.<br />
+* <b> 1st Densely Connected Layer :</b> 
+Now these images are used as an input
+to a fully connected layer with 128 neurons and the output from the
+second convolutional layer is reshaped to an array of 30x30x32 =28800
+values. The input to this layer is an array of 28800 values. The output of
+these layer is fed to the 2nd Densely Connected Layer.We are using a
+dropout layer of value 0.5 to avoid overfitting.<br />
+
+* <b> 2nd Densely Connected Layer :<b>
+  Now the output from the 1st Densely
+Connected Layer are used as an input to a fully connected layer with 96
+neurons.<br />
+  * <b> Final layer:</b>
+  The output of the 2nd Densely Connected Layer serves as
+an input for the final layer which will have the number of neurons as the
+number of classes we are classifying (alphabets + blank symbol).<br />
+  
+  
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%204.5%20The%20CNN%20model%20used%20in%20the%20project.JPG">
+</p><br />
+
+  
+
+### 4.2.3 Activation Function :
+We have used ReLu (Rectified Linear Unit) in each of the
+layers(convolutional as well as fully connected neurons). ReLu
+calculates max(x,0) for each input pixel. This adds nonlinearity to the
+formula and helps to learn more complicated features.It helps in
+removing the vanishing gradient problem and speeding up the training
+by reducing the computation time.<br />
+
+### 4.2.4 Pooling Layer :
+We apply Max pooling to the input image with a pool size of (2, 2)
+with relu activation function.This reduces the amount of parameters
+thus lessening the computation cost and reduces overfitting.<br />
+
+### 4.2.5 Dropout Layers:
+The problem of overfitting, where after training, the weights of the
+network are so tuned to the training examples they are given that the
+network doesn’t perform well when given new examples.This layer
+“drops out” a random set of activations in that layer by setting them to
+zero.The network should be able to provide the right classification or
+output for a specific example even if some of the activations are
+dropped out.<br />
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%204.6%20.JPG">
+</p><br />
+
+### 4.2.6 Optimizer :
+We have used Adam optimizer for updating the model in response to
+the output of the loss function. Adam combines the advantages of two
+extensions of two stochastic gradient descent algorithms namely
+adaptive gradient algorithm(ADA GRAD) and root mean square
+propagation(RMSProp).
 
 
 
+### 4.5 LIBRARIES USED
+
+#### 4.5.1. OpenCV
+OpenCV (Open Source Computer Vision Library) is released under a
+BSD license and hence it’s free for both academic and commercial
+use. It has C++, Python and Java interfaces and supports Windows,
+Linux, Mac OS, iOS and Android. OpenCV was designed for
+computational efficiency and with a strong focus on real-time
+applications. Written in optimized C/C++, the library can take
+advantage of multi-core processing. Enabled with OpenCL, it can
+take advantage of the hardware acceleration of the underlying
+heterogeneous compute platform.<br />
+Adopted all around the world, OpenCV has more than 47 thousand
+people of user community and estimated number of downloads
+exceeding 14 million. Usage ranges from interactive art, to mines
+inspection, stitching maps on the web or through advanced robotics.<br />
+
+#### 4.5.2 Tensorflow
+TensorFlow is an open-source software library for dataflow
+programming across a range of tasks. It is a symbolic math library,
+and is also used for machine learning applications such as neural
+networks. It is used for both research and production at Google.
+TensorFlow was developed by the Google brain team for internal
+Google use. It was released under the Apache 2.0 open source library
+on November 9, 2015.<br />
+TensorFlow is Google Brain's second-generation system. Version
+1.0.0 was released on February 11, 2017. While the reference
+implementation runs on single devices, TensorFlow can run on
+multiple CPUs and GPUs (with optional CUDA and SYCL extensions
+for general-purpose computing on graphics processing units).
+
+TensorFlow is available on 64-bit Linux, macOS, Windows, and
+mobile computing platforms including Android and iOS.
+Its flexible architecture allows for the easy deployment of computation
+across a variety of platforms (CPUs, GPUs, TPUs), and from desktops
+to clusters of servers to mobile and edge devices.
+
+#### 4.5.3 Keras
+Keras is one of the leading high-level neural networks APIs. It is
+written in Python and supports multiple back-end neural
+network computation engines.<br />
+Given that the TensorFlow project has adopted Keras as the highlevel
+API for the upcoming TensorFlow 2.0 release, Keras looks to be
+a winner, if not necessarily the winner. In
+The biggest reasons to use Keras stem from its guiding principles,
+primarily the one about being user friendly. Beyond ease of learning
+and ease of model building, Keras offers the advantages of broad
+adoption, support for a wide range of production deployment options,
+integration with at least five back-end engines (TensorFlow, CNTK,
+Theano, MXNet, and PlaidML), and strong support for multiple GPUs
+and distributed training.<br />
+
+#### 4.5.4 Numpy
+NumPy is a Python library used for working with arrays.It also has
+functions for working in domain of linear algebra, fourier transform,
+and matrices.NumPy was created in 2005 by Travis Oliphant. It is an
+open source project and you can use it freely.NumPy stands for
+Numerical Python.<br />
+In Python we have lists that serve the purpose of arrays, but they are
+slow to process.NumPy aims to provide an array object that is up to
+50x faster than traditional Python lists.The array object in NumPy is
+called ndarray, it provides a lot of supporting functions that make
+working with ndarray very easy.Arrays are very frequently used in
+data science, where speed and resources are very important.
+NumPy arrays are stored at one continuous place in memory unlike
+lists, so processes can access and manipulate them very
+
+efficiently.This behavior is called locality of reference in computer
+science.This is the main reason why NumPy is faster than lists. Also it
+is optimized to work with latest CPU architectures.<br />
+
+#### 4.5.5 Os
+The OS module in python provides functions for interacting with the
+operating system. OS, comes under Python’s standard utility
+modules. This module provides a portable way of using operating
+system dependent functionality. The *os* and *os.path* modules
+include many functions to interact with the file system.<br />
+Python OS module provides the facility to establish the interaction
+between the user and the operating system. It offers many useful OS
+functions that are used to perform OS-based tasks and get related
+information about operating system.The OS comes under Python's
+standard utility modules. This module offers a portable way of using
+operating system dependent functionality.The Python OS module lets
+us work with the files and directories.<br />
+
+#### 4.5.6 Hunspell (Autocorrect feature)
+The python library Hunspell_suggest is used to suggest correct
+alternatives for each (incorrect) input word and we display a set of
+words matching the current word in which the user can select a word
+to append it to the current sentence.This helps in reducing mistakes
+committed in spellings and assists in predicting complex words.<br />
+
+#### 4.5.7 Tkinter
+Tkinter is the standard GUI library for Python. Python when combined
+with Tkinter provides a fast and easy way to create GUI applications.
+Tkinter provides a powerful object-oriented interface to the Tk GUI
+toolkit.<br />
+Creating a GUI application using Tkinter is an easy task. All you need to
+do is perform the following steps −<br />
+* Import the Tkinter module.<br />
+* Create the GUI application main window.<br />
+
+* Add one or more of the above-mentioned widgets to the GUI
+application.<br />
+* Enter the main event loop to take action against each event
+triggered by the user.<br />
+
+#### 4.5.8 PIL (Python Imaging Library)
+Python Imaging Library (abbreviated as PIL) (in newer versions known
+as Pillow) is a free and open-source additional library for the Python
+programming language that adds support for opening, manipulating,
+and saving many different image file formats. It is available for
+Windows, Mac OS X and Linux. The latest version of PIL is 1.1.7, was
+released in September 2009 and supports Python 1.5.2–2.7, with
+Python 3 support to be released "later".<br />
+Development appears to be discontinued, with the last commit to the
+PIL repository coming in 2011. Consequently, a successor project
+called Pillow has forked the PIL repository and added Python 3.x
+support. This fork has been adopted as a replacement for the original
+PIL in Linux distributions including Debian and Ubuntu (since 13.04).<br />
 
 
-
+### 4.7 CHALLENGES FACED
+There were many challenges faced by us during the making of this
+project:<br />
+* The very first issue we faced was of dataset. We wanted to deal with
+raw images and that too square images as CNN in Keras as it was a
+lot more convenient working with only square images. We couldn’t find
+any existing dataset for that hence we decided to make our own
+dataset.<br />
+* Second issue was to select a filter which we could apply on our
+images so that proper features of the images could be obtained and
+hence then we could provided that image as input for CNN model. We
+tried various filter including binary threshold, canny edge detection,
+gaussian blur etc. but finally we settled with gaussian blur filter.<br />
+* More issues were faced relating to the accuracy of the model we
+trained in earlier phases which we eventually improved by increasing
+the input image size and also by improving the dataset.<br />
 
   
 
