@@ -764,5 +764,85 @@ gaussian blur etc. but finally we settled with gaussian blur filter.<br />
 trained in earlier phases which we eventually improved by increasing
 the input image size and also by improving the dataset.<br />
 
-  
+## Chapter 5 Results and Applications
+
+### 5.1 Results
+* An application interface that interprets American Sign Language to
+Text in real time to assist deaf and dumb for communicating with them
+effectively eliminating the requirement of a translating individual has
+been developed successfully.<br />
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%205.1%20.JPG">
+</p><br />
+
+* The model devised achieved an accuracy of 96.5% which is greater
+than the many of the models that we researched. The sign had to be
+kept stable for at least 60 frames in front of the camera.<br />
+  * Other frame capturing values like 40 and 80 were also tried for
+prediction. For 40 frames, the predicted values were flickering
+much and for 80 frames the time taken to predict the correct
+alphabet was high.<br />
+  * Hence frame value 60 proved to be the best optimised value
+for the sign detection.<br />
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%205.2%20Accuracy%20achieved%20in%20our%20model%20is%2096.5%25%20as%20shown%20above.JPG">
+</p><br />
+
+* Our project is implemented using deep learning model that is
+implemented in python. The project requires only a webcam of a
+laptop and a computer system to be deployed. This is much cost
+effective and efficient than the hardware implemented system in [9]
+using flex sensors. The maintenance cost of our project is very less.
+We only need a functional webcam to detect the sign.<br />
+* Our model provides suggestions based on the current word being
+translated from the word in the US dictionary.<br />
+  * For eg: If a speech or hearing impaired person wants to say
+“ELECTRON” to a normal person in sign language with the help
+of our project ; all they have to do is start conversing in sign
+language for the initial alphabets(here ‘E’,’L’,’E’,’C’,’T’) and our
+project would provide 5 suggestions (like ‘ELECTOR’,
+‘ELECTRON’, ‘ELECTRA’, ‘ELECTROCUTE’) accordingly that
+matches with the initials written so far.<br />
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%205.3%20.JPG">
+</p><br />
+
+
+* The suggestions given by the hunspell library helps to detect the
+correct spelling mistakes that may be introduced due to wrong
+detections of an alphabet or wrong knowledge of spellings of a word.<br />
+* We can make words by combining multiple characters and hence can
+also formulate sentences with the help of generated words.This is the
+highlighting feature of our project which is not available in any of the
+models that we researched.<br />
+
+### 5.2 APPLICATIONS
+* According to the National Deaf Association (NAD), 18 million
+people are estimated to be deaf in India.Hence a project like this
+could cater a huge percentage of such impaired community by
+providing a helping hand to communicate with the rest of the world
+using sign language.This leads to the elimination of the middle
+
+
+person who generally acts as a medium of translation.Due to the
+simplicity of the model, it can also be implemented in mobile
+application and is regarded as our future plan to do so.<br />
+* Deaf people do not have that many options for communicating with
+a hearing person, and all of the alternatives do have major flaws.
+Interpreters aren't usually available, and also could be
+expensive.Our project as mentioned before is quite economical and
+requires minimal amount of management.Hence is quite
+advantageous in terms of cost reduction.<br />
+* Pen and paper approach is just a bad idea: it's very uncomfortable,
+messy, time-consuming for both deaf and hearing person.Our
+translator “ANUVADAK” thereby solves the problem by removing
+the need of any written approach for communication.<br />
+* This project idea can even be implemented for deaf and dumb
+community in various places like schools and colleges(for teaching
+purposes),airports(for security check or communicating during onboarding
+or in flight),community service agencies and courts(to
+adjudicate legal disputes between parties),doctor offices(to get to
+know about the illness properly)<br />
+
 
