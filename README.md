@@ -2,11 +2,11 @@
 ## CONTENTS 
 <br>[Abstract ](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#abstract)
 <br>[Chapter 1 Introduction](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-1-introduction)
-<br>Chapter-2-Literature Survey 
-<br>Chapter-3-Artificial Neural Network – A Review 
-<br>Chapter-4-Methodology 
-<br>Chapter-5-Results and Applications 
-<br>Chapter-6-Conclusions and Future Scope 
+<br>[Chapter 2 Literature Survey](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-2-literature-survey)
+<br>Chapter 3 Artificial Neural Network – A Review 
+<br>Chapter 4 Methodology 
+<br>Chapter 5 Results and Applications 
+<br>Chapter 6 Conclusions and Future Scope 
 <br>References 
 <br>Appendix
 
@@ -292,5 +292,12 @@ Arduino microcontroller processes the data for each particular
 gesture made. The system is trained for different voltage values for
 each letter. However, this method is not very economical and
 requires high maintenance from time to time.<br />
+## Chapter 3 Artificial Neural Network – A Review 
+<b>*Feature Extraction and Representation<b> : The representation of an image
+as a 3D matrix having dimension as of height and width of the image and the
+value of each pixel as depth ( 1 in case of Grayscale and 3 in case of RGB).
+Further, these pixel values are used for extracting useful features using
+CNN.*<br />
+
   
 
