@@ -3,7 +3,7 @@
 <br>[Abstract ](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#abstract)
 <br>[Chapter 1 Introduction](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-1-introduction)
 <br>[Chapter 2 Literature Survey](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-2-literature-survey)
-<br>[Chapter 3 Artificial Neural Network – A Review] (https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-3-artificial-neural-network--a-review)
+<br>[Chapter 3 Artificial Neural Network – A Review](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-3-artificial-neural-network--a-review)
 <br>[Chapter 4 Methodology ]
 <br>[Chapter 5 Results and Applications ]
 <br>[Chapter 6 Conclusions and Future Scope ]
@@ -311,9 +311,9 @@ final output layer.<br />
 </p><br />
 There are capable of learning and they have to be trained. There are
 different learning strategies :<br />
-* Unsupervised Learning<br />
-* Supervised Learning<br />
-* Reinforcement Learning<br />
+* Unsupervised Learning
+* Supervised Learning
+* Reinforcement Learning
 ### 3.1.1. Unsupervised Learning:
 Unsupervised learning is a type of machine learning that looks for
 previously undetected patterns in a data set with no pre-existing
