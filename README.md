@@ -298,6 +298,7 @@ as a 3D matrix having dimension as of height and width of the image and the
 value of each pixel as depth ( 1 in case of Grayscale and 3 in case of RGB).
 Further, these pixel values are used for extracting useful features using
 CNN.*<br />
+
 # 3.1 Artificial Neural Networks
 Artificial Neural Network is a connections of neurons, replicating
 the structure of human brain. Each connection of neuron transfers
@@ -311,9 +312,10 @@ final output layer.<br />
 </p><br />
 There are capable of learning and they have to be trained. There are
 different learning strategies :<br />
-* Unsupervised Learning
-* Supervised Learning
-* Reinforcement Learning
+* Unsupervised Learning<br />
+* Supervised Learning<br />
+* Reinforcement Learning<br />
+
 ### 3.1.1. Unsupervised Learning:
 Unsupervised learning is a type of machine learning that looks for
 previously undetected patterns in a data set with no pre-existing
@@ -331,6 +333,7 @@ analysis.<br />
 <p align="center">
   <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.2%20Unsupervised%20learning.JPG">
 </p><br />
+
 ### 3.1.2. Supervised Learning:
 Supervised learning is the machine learning task of learning a
 function that maps an input to an output based on example
@@ -348,6 +351,7 @@ way.<br/>
 <p align="center">
   <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.3%20Supervised%20learning.JPG">
 </p><br />
+
 ### 3.1.3. Reinforcement Learning:
 Reinforcement learning (RL) is an area of machine learning
 concerned with how software agents ought to take actions in an
@@ -362,6 +366,7 @@ exploitation (of current knowledge).<br />
 <p align="center">
   <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.4%20Reinforcement%20learning.JPG">
 </p><br />
+
 ### 3.2 Convolution Neural Network
 Unlike regular Neural Networks, in the layers of CNN, the neurons are
 arranged in 3 dimensions: width, height, depth. The neurons in a layer
@@ -373,6 +378,7 @@ the full image into a single vector of class scores.<br />
 <p align="center">
   <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.5%20Convolution%20Neural%20Network.JPG">
 </p><br />
+
 #### 1 Convolution Layer :
 In convolution layer we take a small window size (typically of
 length 5*5) that extends to the depth of the input matrix. The
@@ -385,6 +391,7 @@ matrix at every spatial position. That is, the network will learn
 filters that activate when they see some type of visual feature
 such as an edge of some orientation or a blotch of some
 color.<br />
+
 #### 2 Pooling Layer :
 We use pooling layer to decrease the size of activation
 matrix and ultimately reduce the learnable parameters. There
