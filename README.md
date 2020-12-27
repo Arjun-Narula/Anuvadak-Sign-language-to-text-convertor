@@ -1,0 +1,1 @@
+# Anuvadak-Sign-language-to-text-convertor
