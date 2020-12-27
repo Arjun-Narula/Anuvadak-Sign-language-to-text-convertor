@@ -121,7 +121,7 @@ We propose to develop a user friendly human computer interface
 is accurate, effective and economical.<br />
 
 ### 1.2 OBJECTIVES
-Markup: * To develop an application interface that interprets American Sign
+* To develop an application interface that interprets American Sign
   Language to Text in real time to assist deaf and dumb for
   communicating with them effectively eliminating the requirement of a
   translating individual.<br />
