@@ -465,8 +465,13 @@ primary interface, however bindings are available for Python, Java,
 MATLAB/OCTAVE.<br />
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.11%20Keras.JPG">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%203.11%20OpenCV.JPG">
 </p><br />
+
+## Chapter 4 Methodology 
+*The system is a vision based approach. All the signs are represented
+with bare hands and so it eliminates the problem of using any artificial
+devices for interaction.*<br />
 
 
 
