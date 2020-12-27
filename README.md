@@ -561,7 +561,7 @@ values. The input to this layer is an array of 28800 values. The output of
 these layer is fed to the 2nd Densely Connected Layer.We are using a
 dropout layer of value 0.5 to avoid overfitting.<br />
 
-* <b> 2nd Densely Connected Layer :<b>
+* <b> 2nd Densely Connected Layer :</b>
   Now the output from the 1st Densely
 Connected Layer are used as an input to a fully connected layer with 96
 neurons.<br />
@@ -578,6 +578,7 @@ number of classes we are classifying (alphabets + blank symbol).<br />
   
 
 ### 4.2.3 Activation Function :
+
 We have used ReLu (Rectified Linear Unit) in each of the
 layers(convolutional as well as fully connected neurons). ReLu
 calculates max(x,0) for each input pixel. This adds nonlinearity to the
@@ -586,11 +587,13 @@ removing the vanishing gradient problem and speeding up the training
 by reducing the computation time.<br />
 
 ### 4.2.4 Pooling Layer :
+
 We apply Max pooling to the input image with a pool size of (2, 2)
 with relu activation function.This reduces the amount of parameters
 thus lessening the computation cost and reduces overfitting.<br />
 
 ### 4.2.5 Dropout Layers:
+
 The problem of overfitting, where after training, the weights of the
 network are so tuned to the training examples they are given that the
 network doesn’t perform well when given new examples.This layer
@@ -604,6 +607,7 @@ dropped out.<br />
 </p><br />
 
 ### 4.2.6 Optimizer :
+
 We have used Adam optimizer for updating the model in response to
 the output of the loss function. Adam combines the advantages of two
 extensions of two stochastic gradient descent algorithms namely
@@ -615,6 +619,7 @@ propagation(RMSProp).
 ### 4.5 LIBRARIES USED
 
 #### 4.5.1. OpenCV
+
 OpenCV (Open Source Computer Vision Library) is released under a
 BSD license and hence it’s free for both academic and commercial
 use. It has C++, Python and Java interfaces and supports Windows,
@@ -630,6 +635,7 @@ exceeding 14 million. Usage ranges from interactive art, to mines
 inspection, stitching maps on the web or through advanced robotics.<br />
 
 #### 4.5.2 Tensorflow
+
 TensorFlow is an open-source software library for dataflow
 programming across a range of tasks. It is a symbolic math library,
 and is also used for machine learning applications such as neural
@@ -650,6 +656,7 @@ across a variety of platforms (CPUs, GPUs, TPUs), and from desktops
 to clusters of servers to mobile and edge devices.
 
 #### 4.5.3 Keras
+
 Keras is one of the leading high-level neural networks APIs. It is
 written in Python and supports multiple back-end neural
 network computation engines.<br />
@@ -665,6 +672,7 @@ Theano, MXNet, and PlaidML), and strong support for multiple GPUs
 and distributed training.<br />
 
 #### 4.5.4 Numpy
+
 NumPy is a Python library used for working with arrays.It also has
 functions for working in domain of linear algebra, fourier transform,
 and matrices.NumPy was created in 2005 by Travis Oliphant. It is an
@@ -684,6 +692,7 @@ science.This is the main reason why NumPy is faster than lists. Also it
 is optimized to work with latest CPU architectures.<br />
 
 #### 4.5.5 Os
+
 The OS module in python provides functions for interacting with the
 operating system. OS, comes under Python’s standard utility
 modules. This module provides a portable way of using operating
@@ -698,6 +707,7 @@ operating system dependent functionality.The Python OS module lets
 us work with the files and directories.<br />
 
 #### 4.5.6 Hunspell (Autocorrect feature)
+
 The python library Hunspell_suggest is used to suggest correct
 alternatives for each (incorrect) input word and we display a set of
 words matching the current word in which the user can select a word
@@ -705,6 +715,7 @@ to append it to the current sentence.This helps in reducing mistakes
 committed in spellings and assists in predicting complex words.<br />
 
 #### 4.5.7 Tkinter
+
 Tkinter is the standard GUI library for Python. Python when combined
 with Tkinter provides a fast and easy way to create GUI applications.
 Tkinter provides a powerful object-oriented interface to the Tk GUI
@@ -720,6 +731,7 @@ application.<br />
 triggered by the user.<br />
 
 #### 4.5.8 PIL (Python Imaging Library)
+
 Python Imaging Library (abbreviated as PIL) (in newer versions known
 as Pillow) is a free and open-source additional library for the Python
 programming language that adds support for opening, manipulating,
@@ -735,6 +747,7 @@ PIL in Linux distributions including Debian and Ubuntu (since 13.04).<br />
 
 
 ### 4.7 CHALLENGES FACED
+
 There were many challenges faced by us during the making of this
 project:<br />
 * The very first issue we faced was of dataset. We wanted to deal with
