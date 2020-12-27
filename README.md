@@ -4,7 +4,7 @@
 <br>[Chapter 1 Introduction](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-1-introduction)
 <br>[Chapter 2 Literature Survey](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-2-literature-survey)
 <br>[Chapter 3 Artificial Neural Network – A Review](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-3-artificial-neural-network--a-review)
-<br>[Chapter 4 Methodology ]
+<br>[Chapter 4 Methodology ](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-4-methodology)
 <br>[Chapter 5 Results and Applications ]
 <br>[Chapter 6 Conclusions and Future Scope ]
 <br>[References ]
