@@ -945,3 +945,97 @@ Technology, 2016.<br />
 
 ## Appendix
 
+### Operating System Used:
+### Ubuntu LTS 20.04.
+Ubuntu is a Linux distribution based on Debian and mostly composed
+of free and open-source software. Ubuntu is officially released in
+three editions: Desktop,Server, and Core for Internet of things
+devices and robots.All the editions can run on the computer alone, or
+in a virtual machine.Ubuntu is a popular operating system for cloud
+computing, with support for OpenStack. Ubuntu's default desktop has
+been GNOME, since version 17.10.Operating System Used:
+Ubuntu LTS 20.04.<br />
+Ubuntu is a Linux distribution based on Debian and mostly composed
+of free and open-source software. Ubuntu is officially released in
+three editions: Desktop,Server, and Core for Internet of things
+devices and robots.All the editions can run on the computer alone, or
+in a virtual machine.Ubuntu is a popular operating system for cloud
+computing, with support for OpenStack. Ubuntu's default desktop has
+been GNOME, since version 17.10.<br />
+Ubuntu is released every six months, with long-term support (LTS)
+releases every two years. As of 22 October 2020, the most recent
+long-term support release is 20.04 ("Focal Fossa"), which is
+supported until 2025 under public support and until 2030 as a paid
+option. The latest standard release is 20.10 ("Groovy Gorilla"), which
+is supported for nine months.<br />
+Ubuntu is developed by Canonical, and a community of other
+developers, under a meritocratic governance model. Canonical
+provides security updates and support for each Ubuntu release,
+starting from the release date and until the release reaches its
+designated end-of-life (EOL) date.Canonical generates revenue
+through the sale of premium services related to Ubuntu.<br />
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%20A.1%20Ubuntu.JPG">
+</p><br />
+
+
+
+### Python
+
+Python is an interpreted, object-oriented, high-level programming
+language with dynamic semantics. Its high-level built in data
+structures, combined with dynamic typing and dynamic binding, make
+it very attractive for Rapid Application Development, as well as for
+use as a scripting or glue language to connect existing components
+together. Python's simple, easy to learn syntax emphasizes
+readability and therefore reduces the cost of program maintenance.<br />
+Python supports modules and packages, which encourages program
+modularity and code reuse. The Python interpreter and the extensive
+standard library are available in source or binary form without charge
+for all major platforms, and can be freely distributed.<br />
+Often, programmers fall in love with Python because of the increased
+productivity it provides. Since there is no compilation step, the edittest-
+debug cycle is incredibly fast. Debugging Python programs is
+easy: a bug or bad input will never cause a segmentation fault.
+Instead, when the interpreter discovers an error, it raises an
+exception. When the program doesn't catch the exception, the
+interpreter prints a stack trace. A source level debugger allows
+inspection of local and global variables, evaluation of arbitrary
+expressions, setting breakpoints, stepping through the code a line at
+a time, and so on. The debugger is written in Python itself, testifying
+to Python's introspective power. On the other hand, often the
+quickest way to debug a program is to add a few print statements to
+the source: the fast edit-test-debug cycle makes this simple approach
+very effective.<br />
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%20A.2%20Python.JPG">
+</p><br />
+
+
+
+### Convolution Neural network
+
+CNNs use a variation of multilayer perceptrons designed to require
+minimal preprocessing. They are also known as shift invariant or
+space invariant artificial neural networks (SIANN), based on their
+shared-weights architecture and translation invariance
+characteristics.<br />
+Convolutional networks were inspired by biological processes in that
+the connectivity pattern between neurons resembles the organization
+of the animal visual cortex. Individual cortical neurons respond to
+stimuli only in a restricted region of the visual field known as the
+receptive field. The receptive fields of different neurons partially
+overlap such that they cover the entire visual field.<br />
+CNNs use relatively little pre-processing compared to other image
+classification algorithms. This means that the network learns the
+filters that in traditional algorithms were hand-engineered. This
+independence from prior knowledge and human effort in feature
+design is a major advantage.<br />
+They have applications in image and video recognition, recommender
+systems, image classification, medical image analysis, and natural
+language processing.<br />
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%20A.3%20CNN.JPG">
+</p><br />
+
