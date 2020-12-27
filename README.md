@@ -1,4 +1,17 @@
-# Anuvadak-Sign-language-to-text-convertor
+# ANUVADAK-Sign-language-to-text-convertor
+## CONTENTS 
+
+
+#Abstract 
+#Chapter-1-Introduction 
+#Chapter-2-Literature Survey 
+#Chapter-3-Artificial Neural Network – A Review 
+#Chapter-4-Methodology 
+#Chapter-5-Results and Applications 
+#Chapter-6-Conclusions and Future Scope 
+#References 
+#Appendix
+
 ## ABSTRACT
 People affected by speech impairment can't communicate using hearing
 and speech, they rely on sign language for communication. Sign
