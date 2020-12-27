@@ -6,9 +6,9 @@
 <br>[Chapter 3 Artificial Neural Network – A Review](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-3-artificial-neural-network--a-review)
 <br>[Chapter 4 Methodology ](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-4-methodology)
 <br>[Chapter 5 Results and Applications ](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-5-results-and-applications)
-<br>[Chapter 6 Conclusions and Future Scope ]
-<br>[References ]
-<br>[Appendix]
+<br>[Chapter 6 Conclusions and Future Scope ]()
+<br>[References ]()
+<br>[Appendix]()
 
 ## ABSTRACT
 People affected by speech impairment can't communicate using hearing
@@ -844,4 +844,73 @@ or in flight),community service agencies and courts(to
 adjudicate legal disputes between parties),doctor offices(to get to
 know about the illness properly)<br />
 
+## Chapter 6 Conclusions and Future Scope 
+
+### 6.1 CONCLUSIONS
+
+* With the continuous breakthrough of neural network in artificial
+intelligence, computer vision and other related fields, neural network
+has brought dynamic new methods to the study of sign language
+recognition based on vision.<br />
+* In this report, we have proposed a recognition method of fingerspellings
+in American Sign Language, which uses computer vision
+based on pattern recognition and Convolutional Neural Network(a
+Deep Learning algorithm).<br />
+* We have trained our model for a total of 27 symbols(26 English
+alphabets & a ‘blank’ symbol for spacing in between the sentences).
+We were able to achieve an accuracy of 96.5% for our CNN classifier.<br />
+* A basic GUI application is created to test our classifier in this
+system.The application allows users to form characters, words and
+sentences according to their needs.Moreover by providing multiple
+suggestions for the corresponding word being formed further helps in
+communication.<br />
+* The main objective has been achieved, that is, the need for an
+interpreter has been eliminated.<br />
+
+### 6.2 FUTURE SCOPE
+
+In this report, a functional real time vision based american sign
+language recognition for D&M people have been developed for asl
+alphabets.We achieved final accuracy of 95% on our dataset. We are
+able to improve our prediction after implementing two layers of
+algorithms in which we verify and predict symbols which are more
+similar to each other. This way we are able to detect almost all the
+symbols provided that they are shown properly, there is no noise in
+the background and lighting is adequate. Our project aims to create a
+computer application and train a model which when shown a real time
+video of hand gestures of American Sign Language shows the output
+for that particular sign in text format on the screen.<br />
+* This project did not focus on Facial Expressions although it is
+well known that facial expressions convey important part of sign
+languages. This system can be implemented in many application
+areas examples include accessing government websites
+whereby no video clip for deaf and mute is available or filling out
+forms online whereby no interpreter may be present to help.<br />
+* This technology could mean a new way for about 70 million
+people with hearing and speech impairment to verbally
+communicate and connect to people around them. This project
+aims to lower the communication gap between the deaf or mute
+community and the normal world.<br />
+* In future work, proposed system can be developed and
+implemented using Raspberry Pi. Image Processing part should
+be improved so that System would be able to communicate in
+both directions i.e.it should be capable of converting normal
+language to sign language and vice versa.<br />
+* We will try to recognize signs which include motion. Moreover
+we will focus on converting the sequence of gestures into text
+i.e. word and sentences and then converting it into the speech
+which can be heard.<br />
+* Although this project has achieved high accuracy, the data set is
+limited in scope and does not include word-level sign
+language.With broad application and development space, sign
+language recognition still has much room for improvement .<br />
+* At the same time, most methods of sign language recognition
+now only consider the accuracy of the algorithm. However, for
+the application of sign language recognition in real scene, realtime
+performance is another important index. Therefore, it is also
+a direction worthy of breakthrough about how to improve the
+speed of hand locating and recognition of sign language words.<br />
+
+## References
+## Appendix
 
