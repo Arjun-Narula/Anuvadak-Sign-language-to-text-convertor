@@ -69,13 +69,13 @@ The gestures we aim to train are as given in the image below.<br />
 
 
 
-1.1 MOTIVATION
+### 1.1 MOTIVATION
 The main motivation is to translate sign language to text. The
 framework provides a helping-hand for speech-impaired to
 communicate with the rest of the world using sign language. This
 leads to the elimination of the middle person who generally acts as a
 medium of translation. This would contain a user-friendly environment
-for the user by providing text output for a sign gesture input.
+for the user by providing text output for a sign gesture input.<br />
 There are many researches on recognition of sign languages or
 finger spellings. In [1] they have proposed a system that recognizes
 dynamic hand gestures for English numbers (0-9) in real-time using
@@ -83,24 +83,23 @@ Hidden Markov Model. HMM is highly dependent on the probability of
 the hidden states, hence there are more number of parameters to
 learn which is time consuming. Our prime motivation was to devise a
 system which is time efficient for each and every alphabet of
-American Sign Language.
-8
-Figure 1.1 Sign conventions of alphabets in ASL
+American Sign Language.<br />
+
 Pradumn Kumar and Upasana Dugal [2] proposed an algorithm using
 Tensorflow based on Advanced Convolutional Neural Networks for
 identification of plants. This research paper motivated us to use
 Convolutional Neural Networks for identification of American Sign
-Language symbols.
+Language symbols.<br />
 In [3], [4] and [5] we got an overview of Convolutional Neural
 Network(CNN), various deep learning approaches, their applications
 and their recent developments. We also gathered details about how
 overfitting in Neural Networks can be reduced by a technique called
-Dropout which is dropping off some neurons in the Neural Nets.
+Dropout which is dropping off some neurons in the Neural Nets.<br />
 One method is based on Support Vector Machine (SVM) [7]. They
 extract signs from video sequences using skin colour segmentation,
 and distinguish static and dynamic gestures. However, the accuracy
 received in this method is 86%. Our aim is to achieve higher
-accuracy than this model.
+accuracy than this model.<br />
 Representing high-volume and high-order data is an essential
 problem, especially in machine learning field. This [8] research paper
 developed a model using Linear discriminant analysis (LDA), the
@@ -108,7 +107,7 @@ classical LDA, however, demands that input data should be
 represented by vector. Such a constraint is a significant drawback to
 express complex data. To solve the above limitation for high-volume
 and high-order data nonlinear dimensionality reduction, we used
-Convolutional Neural Networks.
+Convolutional Neural Networks.<br />
 Another method is a controller gesture recognition system that
 extracts hand gestures using Flex sensors [9] for sensing the hand
 movements. The output from the microcontroller is the recognized
@@ -116,28 +115,28 @@ text which is fed as input to the speech synthesizer. Arduino
 microcontroller processes the data for each particular gesture made.
 The system is trained for different voltage values for each letter.
 However, this method is not very economical and requires high
-maintenance from time to time.
+maintenance from time to time.<br />
 We propose to develop a user friendly human computer interface
 (HCI) where the computer understands the human sign language and
-is accurate, effective and economical.
-9
-1.2 OBJECTIVES
+is accurate, effective and economical.<br />
+
+### 1.2 OBJECTIVES
 1 To develop an application interface that interprets American Sign
-Language to Text in real time to assist deaf and dumb for
-communicating with them effectively eliminating the requirement of a
-translating individual.
+  Language to Text in real time to assist deaf and dumb for
+  communicating with them effectively eliminating the requirement of a
+  translating individual.<br />
 2 To devise a model to achieve the highest possible accuracy and least
-time consumption for prediction of symbols as compared to already
-existing models.
+  time consumption for prediction of symbols as compared to already
+  existing models.<br />
 3 To reduce the cost and develop an economical and user friendly
-graphical user interface (GUI) application that requires minimal
-maintenance for conversion of sign to its corresponding text.
+  graphical user interface (GUI) application that requires minimal
+  maintenance for conversion of sign to its corresponding text.<br />
 4 To provide suggestions based on current word to eliminate the need
-of translating the full word, thereby improving accuracy and reducing
-time for sign to text conversion.
+  of translating the full word, thereby improving accuracy and reducing
+  time for sign to text conversion.<br />
 5 To reduce the chances of spelling mistakes by suggesting correct
-spellings from English dictionary words close to the current word.
+  spellings from English dictionary words close to the current word.
 6 To formulate characters, words and sentences with interpretation of
-symbols in American Sign Language in a portable and real time
-application.
-10
+  symbols in American Sign Language in a portable and real time
+  application.<br />
+
