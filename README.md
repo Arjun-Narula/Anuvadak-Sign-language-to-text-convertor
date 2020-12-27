@@ -5,7 +5,7 @@
 <br>[Chapter 2 Literature Survey](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-2-literature-survey)
 <br>[Chapter 3 Artificial Neural Network – A Review](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-3-artificial-neural-network--a-review)
 <br>[Chapter 4 Methodology ](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-4-methodology)
-<br>[Chapter 5 Results and Applications ]()
+<br>[Chapter 5 Results and Applications ](https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/README.md#chapter-5-results-and-applications)
 <br>[Chapter 6 Conclusions and Future Scope ]
 <br>[References ]
 <br>[Appendix]
@@ -823,11 +823,10 @@ people are estimated to be deaf in India.Hence a project like this
 could cater a huge percentage of such impaired community by
 providing a helping hand to communicate with the rest of the world
 using sign language.This leads to the elimination of the middle
-
-
 person who generally acts as a medium of translation.Due to the
 simplicity of the model, it can also be implemented in mobile
 application and is regarded as our future plan to do so.<br />
+
 * Deaf people do not have that many options for communicating with
 a hearing person, and all of the alternatives do have major flaws.
 Interpreters aren't usually available, and also could be
