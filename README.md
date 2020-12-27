@@ -55,15 +55,20 @@ Sign language is a visual language and consists of 3 major
 components:<br />
 <p align="center">
   <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Table1.1%20Components%20of%20visual%20sign%20language.JPG">
-</p>
+</p><br />
 
 
 In our project we basically focus on producing a model which can
 recognise Finger spelling based hand gestures in order to form a
-complete word by combining each gesture.
-7
-Table 1.1 Components of visual sign language
-The gestures we aim to train are as given in the image below.
+complete word by combining each gesture.<br />
+The gestures we aim to train are as given in the image below.<br />
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Arjun-Narula/Anuvadak-Sign-language-to-text-convertor/blob/main/Images/Figure%201.1%20Sign%20conventions%20of%20alphabets%20in%20ASL.JPG">
+ </p><br /> 
+  
+
+
+
 1.1 MOTIVATION
 The main motivation is to translate sign language to text. The
 framework provides a helping-hand for speech-impaired to
